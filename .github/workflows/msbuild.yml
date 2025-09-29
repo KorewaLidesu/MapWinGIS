@@ -12,6 +12,7 @@ on:
       - '**.md'
       - '**.yml'
       - 'docs/**'
+  workflow_dispatch:
 env:
   # Path to the solution files relative to the root of the project.
   SUPPORTLIBS_SOLUTION_FILE_PATH: ./Support/SupportLibs.sln
